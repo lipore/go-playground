@@ -22,3 +22,7 @@ The `main.go` load the dynamic library from `driver.so` and call the function `N
 ```shell
 go build -o go-dynamicLibrary && ./go-dynamicLibrary
 ```
+
+Reference:
+
+[1] [Go 语言设计与实现 8.1 插件系统](https://draveness.me/golang/docs/part4-advanced/ch08-metaprogramming/golang-plugin/) 
